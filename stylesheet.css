@@ -1,0 +1,109 @@
+body {
+    width: 1440px;
+    padding: 50px 50px;
+    background-color:hsl(30, 38%, 92%);
+    align-items: center;
+  }
+
+  .container {
+    width: 650px;
+    margin-left: 445px;
+    margin-right: 445px;
+  }
+
+  .img-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .product-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .product-details {
+    padding: 0px 44px;
+    vertical-align: top;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .product-type {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    margin-top: 36px;
+    margin-bottom: 0;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+  }
+
+  .perfume-name {
+    font-family: 'Fraunces', serif;
+    font-size: 34px;
+    margin-bottom: 22px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+
+  .perfume-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 42px;
+  }
+
+  .price-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .price-1 {
+    display: inline-block;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+  }
+
+  .price-2 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-align: center;
+    text-decoration-line: line-through;
+  }
+
+  .cart-buttom {
+    background-color:  hsl(159, 54%, 15%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 15px 65px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    
+  }
+
+  .cart-buttom:hover {
+    background-color:  hsl(158, 36%, 37%);
+  }
+
+  .cart-div {
+    display: grid;
+    grid-template-columns: 26px 1fr;
+  }
+
+  .attribution { 
+    font-size: 14px; 
+    text-align: center;
+    margin-top: 40px;
+   }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
